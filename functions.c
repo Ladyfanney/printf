@@ -12,7 +12,6 @@
  * @size: Size specifier
  * Return: Number of chars printed
  */
-
 int print_char(va_list types, char buffer[],
 		int flags, int width, int precision, int size)
 {
@@ -126,12 +125,6 @@ int print_int(va_list types, char buffer[],
 	num = (unsigned long int)n;
 
 	if (n < 0)
-	{
-		num = (unsigned long int)((-1) * n);
-		is_negative = 1;
-	}
-
-	while (num > 0)
 	{
 		num = (unsigned long int)((-1) * n);
 		is_negative = 1;
