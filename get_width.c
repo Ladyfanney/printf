@@ -5,6 +5,7 @@
  * @format: Formatted string in which to print the arguments.
  * @i: List of arguments to be printed
  * @list: list of arguments
+ * @is_digit: list of digits
  *
  * Return: Width
  */
